@@ -1,10 +1,10 @@
-# 🎨 Gráfica IMPERIAL - Site Ultra Moderno
+# 🎨 Gráfica IMPERIAL 
 
-Um site **incrivelmente moderno** e **visualmente impressionante** para a Gráfica IMPERIAL, uma das pioneiras do Paraná em impressos de alta qualidade.
+Um site para a Gráfica IMPERIAL, uma das pioneiras do Paraná em impressos de alta qualidade.
 
-## ✨ Características Ultra Modernas
+## ✨ Características
 
-### 🎭 **Efeitos Visuais Avançados**
+### 🎭 **Efeitos Visuais**
 - **Glassmorphism**: Efeitos de vidro translúcido com blur
 - **Gradientes Animados**: Cores que se movem e mudam dinamicamente
 - **Partículas Flutuantes**: Elementos decorativos animados
@@ -12,7 +12,7 @@ Um site **incrivelmente moderno** e **visualmente impressionante** para a Gráfi
 - **Neon Glow**: Brilhos neon nas cores institucionais
 - **Morphing**: Elementos que mudam de forma suavemente
 
-### 🎬 **Animações Incríveis**
+### 🎬 **Animações**
 - **Scroll Parallax**: Efeito de profundidade ao rolar
 - **Mouse Tracking**: Elementos que seguem o cursor
 - **Fade-in Sequencial**: Elementos aparecem em sequência
@@ -20,7 +20,7 @@ Um site **incrivelmente moderno** e **visualmente impressionante** para a Gráfi
 - **Pulse Glow**: Efeitos de brilho pulsante
 - **Wave Effects**: Ondas animadas
 
-### 🎨 **Design Ultra Moderno**
+### 🎨 **Design**
 - **Dark Theme**: Tema escuro elegante e sofisticado
 - **Gradientes Dinâmicos**: Cores que fluem e se transformam
 - **Typography Avançada**: Tipografia com gradientes e efeitos
@@ -36,7 +36,7 @@ Um site **incrivelmente moderno** e **visualmente impressionante** para a Gráfi
 - **Glassmorphism** - Efeitos de vidro translúcido
 - **3D Transforms** - Transformações tridimensionais
 
-## 🌟 Seções Ultra Modernas
+## 🌟 **Seções**
 
 ### 1. **Hero Section Imersivo**
 - Gradientes animados em movimento
@@ -237,9 +237,8 @@ module.exports = {
 
 Para dúvidas ou sugestões sobre o projeto:
 
-- **Email**: contato@imperial.com.br
-- **Telefone**: (43) 3333-4444
-- **WhatsApp**: (43) 99999-9999
+- **Email**: pastorello_jhordan@icloud.com  
+- **WhatsApp**: (46) 99901-9800
 
 ## 📄 Licença
 
@@ -269,4 +268,3 @@ Este projeto foi desenvolvido para a Gráfica IMPERIAL. Todos os direitos reserv
 
 ---
 
-**Desenvolvido com ❤️ e tecnologia de ponta para a Gráfica IMPERIAL**
