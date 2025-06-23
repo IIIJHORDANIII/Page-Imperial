@@ -6,12 +6,12 @@ const ParticleBackground = () => (
     {[...Array(50)].map((_, i) => (
       <div
         key={i}
-        className="absolute w-2 h-2 bg-imperialLime rounded-full animate-pulse"
+        className="absolute w-2 h-2 bg-imperialLime rounded-full animate-particle-fade"
         style={{
           left: `${Math.random() * 100}%`,
           top: `${Math.random() * 100}%`,
-          animationDelay: `${Math.random() * 3}s`,
-          animationDuration: `${2 + Math.random() * 3}s`
+          animationDelay: `${Math.random() * 4}s`,
+          animationDuration: `${4 + Math.random() * 6}s`
         }}
       />
     ))}
@@ -157,21 +157,15 @@ function App() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [activeFilter, setActiveFilter] = useState('Todos');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const heroRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 50);
-    const handleMouseMove = (e: MouseEvent) => {
-      setMousePosition({ x: e.clientX, y: e.clientY });
-    };
 
     window.addEventListener('scroll', handleScroll);
-    window.addEventListener('mousemove', handleMouseMove);
     
     return () => {
       window.removeEventListener('scroll', handleScroll);
-      window.removeEventListener('mousemove', handleMouseMove);
     };
   }, []);
 
@@ -260,17 +254,6 @@ function App() {
         <AnimatedGradient />
         <ParticleBackground />
         
-        {/* Efeito de mouse parallax */}
-        <div 
-          className="absolute inset-0 opacity-30"
-          style={{
-            transform: `translate(${(mousePosition.x - window.innerWidth / 2) * 0.01}px, ${(mousePosition.y - window.innerHeight / 2) * 0.01}px)`
-          }}
-        >
-          <div className="absolute top-20 left-20 w-40 h-40 bg-imperialLime rounded-full blur-3xl animate-pulse"></div>
-          <div className="absolute bottom-20 right-20 w-60 h-60 bg-purple-500 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        </div>
-
         <div className="relative z-10 text-center max-w-6xl mx-auto px-4">
           <div className="mb-8 flex justify-center">
             <img

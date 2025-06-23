@@ -95,10 +95,38 @@ code {
   }
 }
 
+@keyframes particle-fade {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  20% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  80% {
+    opacity: 1;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes slow-pulse {
+  0%, 100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
 /* Classes de animação */
 .animate-gradient-xy {
   background-size: 400% 400%;
-  animation: gradient-xy 15s ease infinite;
+  animation: gradient-xy 10s ease infinite;
 }
 
 .animate-gradient-x {
@@ -123,7 +151,7 @@ code {
 }
 
 .animate-float {
-  animation: float 6s ease-in-out infinite;
+  animation: float 90s ease-in-out infinite;
 }
 
 .animate-pulse-glow {
@@ -140,6 +168,14 @@ code {
 
 .animate-slide-in-right {
   animation: slide-in-right 1s ease-out forwards;
+}
+
+.animate-slow-pulse {
+  animation: slow-pulse 3s ease-in-out infinite;
+}
+
+.animate-particle-fade {
+  animation: particle-fade 4s ease-in-out infinite;
 }
 
 /* Efeitos de hover personalizados */
@@ -187,7 +223,7 @@ html {
   background: #C6FF00;
   border-radius: 50%;
   pointer-events: none;
-  animation: float 6s ease-in-out infinite;
+  animation: float 10s ease-in-out infinite;
 }
 
 /* Responsividade para animações */
